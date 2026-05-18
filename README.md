@@ -2,7 +2,7 @@
 
 Benchmarks four speculative decoding methods on a single NVIDIA DGX Spark using Qwen3-32B as the target model, Qwen3-8B as the draft model, and the AngelSlim Eagle3 head.
 
-[Read the full write-up →](blog_draft.md)
+[Read the full write-up →](https://shaunliew.hashnode.dev/qwen3-speculative-decoding-on-the-dgx-spark-two-models-four-methods-one-surprising-lesson)
 
 ---
 
@@ -141,7 +141,7 @@ Acceptance rate is visible in the Terminal 1 server logs. Search for `SpecDecodi
 - `concepts/03_draft_target_explained.md`
 - `concepts/04_eagle3_explained.md`
 - `notebooks/walkthrough.ipynb`
-- [blog_draft.md](blog_draft.md), full analysis including MoE vs dense comparison
+- [hashnode blog](https://shaunliew.hashnode.dev/qwen3-speculative-decoding-on-the-dgx-spark-two-models-four-methods-one-surprising-lesson), full analysis including MoE vs dense comparison
 
 ---
 
