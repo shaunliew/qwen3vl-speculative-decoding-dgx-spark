@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "question": "A train travels 120 km in 2 hours. What is its average speed in km/h?",
+    "options": { "A": "40", "B": "60", "C": "80", "D": "100" },
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "Which gas makes up the largest percentage of Earth's atmosphere?",
+    "options": { "A": "Oxygen", "B": "Nitrogen", "C": "Carbon dioxide", "D": "Argon" },
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "In which year did World War II end?",
+    "options": { "A": "1943", "B": "1944", "C": "1945", "D": "1946" },
+    "answer": "C"
+  },
+  {
+    "id": 4,
+    "question": "What is 15% of 200?",
+    "options": { "A": "20", "B": "25", "C": "30", "D": "35" },
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "What is the capital city of France?",
+    "options": { "A": "London", "B": "Berlin", "C": "Paris", "D": "Rome" },
+    "answer": "C"
+  },
+  {
+    "id": 6,
+    "question": "What is the chemical symbol for gold on the periodic table?",
+    "options": { "A": "Gd", "B": "Go", "C": "Au", "D": "Ag" },
+    "answer": "C"
+  },
+  {
+    "id": 7,
+    "question": "All cats are mammals. All mammals are warm-blooded. Which conclusion MUST be true?",
+    "options": {
+      "A": "Some cats are not warm-blooded",
+      "B": "All warm-blooded animals are cats",
+      "C": "All cats are warm-blooded",
+      "D": "Mammals are not always warm-blooded"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "question": "What is the square root of 144?",
+    "options": { "A": "10", "B": "11", "C": "12", "D": "13" },
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": {
+      "A": "Charles Dickens",
+      "B": "William Shakespeare",
+      "C": "Jane Austen",
+      "D": "Mark Twain"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "How many planets are currently recognised in our solar system?",
+    "options": { "A": "7", "B": "8", "C": "9", "D": "10" },
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "question": "If x + 5 = 12, what is the value of x?",
+    "options": { "A": "5", "B": "6", "C": "7", "D": "8" },
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "question": "Which river is traditionally listed as the longest in the world?",
+    "options": { "A": "Amazon", "B": "Mississippi", "C": "Yangtze", "D": "Nile" },
+    "answer": "D"
+  },
+  {
+    "id": 13,
+    "question": "Approximately how fast does light travel in a vacuum?",
+    "options": {
+      "A": "3 x 10^6 m/s",
+      "B": "3 x 10^7 m/s",
+      "C": "3 x 10^8 m/s",
+      "D": "3 x 10^9 m/s"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "question": "Who was the first President of the United States?",
+    "options": {
+      "A": "Abraham Lincoln",
+      "B": "Thomas Jefferson",
+      "C": "George Washington",
+      "D": "Benjamin Franklin"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 15,
+    "question": "What is 7 x 8?",
+    "options": { "A": "54", "B": "56", "C": "58", "D": "62" },
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "question": "What is the antonym (opposite in meaning) of the word 'ancient'?",
+    "options": { "A": "Old", "B": "Historic", "C": "Modern", "D": "Aged" },
+    "answer": "C"
+  },
+  {
+    "id": 17,
+    "question": "Which organelle is known as the 'powerhouse of the cell'?",
+    "options": {
+      "A": "Nucleus",
+      "B": "Ribosome",
+      "C": "Mitochondria",
+      "D": "Golgi apparatus"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "question": "It takes 5 machines 5 minutes to make 5 widgets. How long does it take 100 machines to make 100 widgets?",
+    "options": {
+      "A": "1 minute",
+      "B": "5 minutes",
+      "C": "20 minutes",
+      "D": "100 minutes"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 19,
+    "question": "A rectangle has length 8 cm and width 5 cm. What is its area?",
+    "options": { "A": "13 cm2", "B": "26 cm2", "C": "40 cm2", "D": "80 cm2" },
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "question": "Which programming paradigm does Python primarily support?",
+    "options": {
+      "A": "Purely functional",
+      "B": "Purely object-oriented",
+      "C": "Multi-paradigm (procedural, OOP, functional)",
+      "D": "Assembly-level only"
+    },
+    "answer": "C"
+  }
+]

@@ -1,0 +1,26 @@
+# Host-side dependencies only. Inference runs inside the vLLM Docker container.
+# This file manages tooling needed on the HOST (e.g. model downloads via
+# huggingface-cli). vLLM, PyTorch, and Transformers are NOT listed here —
+# they are pre-installed in nvcr.io/nvidia/vllm:26.04-py3 (CUDA 13.0, SM121).
+#
+# Quick start:
+#   uv sync              # installs huggingface-hub[cli] into .venv/
+#   bash setup.sh        # downloads all model weights
+#   docker run ...       # see setup.sh output for the exact command
+
+[project]
+name = "qwen3vl-speculative-decoding"
+version = "0.1.0"
+description = "Speculative decoding benchmark for Qwen3-32B on NVIDIA DGX Spark"
+requires-python = ">=3.11"
+dependencies = [
+    # huggingface-cli is used in setup.sh to download model weights before
+    # launching Docker. The [cli] extra pulls in the `huggingface-cli` binary.
+    "huggingface-hub[cli]>=0.30.0",
+]
+
+[tool.uv]
+# Use a project-local venv so `uv run` and `uv sync` are self-contained.
+# After `uv sync`, activate with: source .venv/bin/activate
+# Or invoke directly: uv run huggingface-cli download ...
+managed = true

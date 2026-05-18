@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# HuggingFace model weights (large — stored in ~/.cache/huggingface, not in repo)
+*.bin
+*.safetensors
+
+# Claude Code and local tool configs
+.agents/
+.claude/
+.codex/
+docs/superpowers/
+CLAUDE.md
+
+# Working documents not meant for the public repo
+blog_draft.md
+
+# OS
+.DS_Store
